@@ -1,0 +1,159 @@
+@font-face{
+    font-family: ocr-a_regular-webfont;
+    src: url("fonts/ocr-a_regular-webfont.woff");
+}
+
+@font-face{
+    font-family: museosans_500-webfont;
+    src: url("fonts/museosans_500-webfont.woff");
+}
+
+.grid-container {
+  display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.grid-item{
+    border: 1px solid rgba(0, 159, 227, 0.5);
+}
+
+.grid-container-font{
+    display: grid;
+    grid-template-columns: repeat(23,1fr);
+}
+
+.container{
+    background-size: 8.333% 100%;
+    background-image: linear-gradient(to right, skyblue 1px, transparent 1px);
+    background-color: #EAEAEA;
+    height: 100%;
+    width: 100%;
+    position:relative;
+    border-right: 1px solid skyblue;
+    border-top: 1px solid skyblue;
+}
+
+.column {
+/*    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(100%/12);
+    background-color: skyblue;
+    opacity: 0.5;
+    */
+    display: grid;
+    grid-template-columns: auto 40%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: calc(8.333% * 1);
+    margin-right: calc(8.333% * 1);
+    /*position: relative;
+    left: calc(8.333% * 7);
+    width: calc(8.333% * 4);*/
+}
+
+.column2 {
+/*    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(100%/12);
+    background-color: skyblue;
+    opacity: 0.5;
+    */
+    display: grid;
+    grid-template-columns: auto 40%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    margin-left: calc(8.333% * 1);
+    margin-right: calc(8.333% * 3);
+}
+
+.column3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    margin-left: calc(8.333% * 1);
+    margin-right: calc(8.333% * 1);
+    text-align: center;
+}
+
+.column4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: calc(8.333% * 4);
+    margin-right: calc(8.333% * 4);
+}
+
+.contra{
+   font-family: ocr-a_regular-webfont;
+    color: #009FE3;
+    font-size: 40px;
+    text-align: right;
+    letter-spacing: 0.1em;
+}
+
+.citta {
+   font-family: ocr-a_regular-webfont;
+    color: #009FE3;
+    font-size: 40px;
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+
+.contraBraile {
+   font-family: ocr-a_regular-webfont;
+    color: #009FE3;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.paragrafo{
+    font-family: museosans_500-webfont;
+    text-align: right;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.paragrafo2{
+    font-family: museosans_500-webfont;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.paragrafo3{
+    font-family: museosans_500-webfont;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.pattern {
+    width: 100%;
+    height: 200px;
+    background-image: url(pattern/PatternV2.png);
+    background-size: 100% auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.image {
+    margin-top: 9%;
+}
+
+.ciao {
+    width: 150%;
+    height:auto;
+    margin-left: 10%;
+}
+
+pre {
+    background: skyblue;
+    text-align: center;
+    margin: 0px;
+}
